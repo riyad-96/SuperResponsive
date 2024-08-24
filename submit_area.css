@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+:root{
+  --poppins: 'poppins', sans-serif;
+  --ubuntu: 'ubuntu', sans-serif;
+  --primary: #f1c50e;
+  --secondary: #f2f2f2;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.submit_area{
+  max-width: 1140px;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.submit_area .form_area{
+  width: 65%;
+  padding-right: 100px;
+}
+.submit_area .form_area h2{
+  font-family: var(--ubuntu);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.submit_area .form_area p{
+  font-family: var(--poppins);
+  margin-bottom: 30px;
+  font-weight: 300;
+  width: 80%;
+}
+.submit_area .form_area input{
+  display: block;
+  width: 97%;
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  background: var(--secondary);
+  border: none;
+  outline: none;
+  font-family: var(--poppins);
+  font-size: 16px;
+  border-radius: 10px;
+}
+.submit_area .form_area a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background: var(--primary);
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px 35px;
+  border-radius: 10px;
+}
+.submit_area .form_area a:hover{
+  background: #d9b10d;
+}
+.submit_area .form_area a:active{
+  background: #f9e79b;
+}
+
+
+/* ----- social area ----- */
+.submit_area .social_info{
+  width: 35%;
+  text-align: center;
+}
+.submit_area .social_info div{
+  font-size: 17px;
+  font-family: var(--poppins);
+  color: #999999;
+  font-weight: 300;
+}
+.submit_area .social_info .social_icon{
+  margin-top: 25px;
+}
+.submit_area .social_info .social_icon i{
+  font-size: 30px;
+  color: #f1c50e;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+.submit_area .social_info .social_icon i:hover{
+  transform: translateY(-5px);
+}

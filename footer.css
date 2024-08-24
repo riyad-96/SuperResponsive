@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+:root{
+  --poppins: 'poppins', sans-serif;
+  --ubuntu: 'ubuntu', sans-serif;
+  --primary: #f1c50e;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  width: 100%;
+  min-height: 120px;
+  background: #333333;
+  color: #fff;
+  font-family: var(--poppins);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer_content{
+  max-width: 1140px;
+  width: 100%;
+  text-align: center;
+}
+.footer_content p a{
+  text-decoration: none;
+  color: rgb(107, 122, 206);
+}
+.footer_content p a:hover{
+  text-decoration: underline;
+}

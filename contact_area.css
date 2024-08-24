@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+:root{
+  --poppins: 'poppins', sans-serif;
+  --ubuntu: 'ubuntu', sans-serif;
+  --primary: #f1c50e;
+  --secondary: #f2f2f2;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact_area {
+  max-width: 1140px;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+}
+.contact_area .adress{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.contact_area h3 {
+  font-family: var(--ubuntu);
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.contact_area .location{
+  font-family: var(--poppins);
+  background: var(--secondary);
+  width: 90%;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.contact_area .info{
+  font-family: var(--poppins);
+  background: var(--secondary);
+  width: 90%;
+  height: 150px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+}
+.contact_area .gmap{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_area iframe{
+  width: 100%;
+  border-radius: 10px;
+}

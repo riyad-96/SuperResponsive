@@ -1,0 +1,27 @@
+:root{
+  --poppins: 'poppins', sans-serif;
+  --ubuntu: 'ubuntu', sans-serif;
+  --primary: #f1c50e;
+}
+
+.brand_logo{
+  width: 100%;
+  min-height: 150px;
+  background-color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 50px 0;
+}
+.brand_logo .img_container{
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.brand_logo .img_container img{
+  height: 60px;
+  transition: 0.5s;
+}
+.brand_logo .img_container img:hover{
+  transform: translateY(-10px);
+}
